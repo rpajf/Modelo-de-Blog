@@ -1,0 +1,151 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  text-align: center
+}
+
+
+.header{
+  width: 100%;
+  height: 45px;
+  background-color: #000;
+  display: table;
+
+}
+
+.menu {
+  list-style: none;
+}
+.menu .menu-item{
+  float: left;
+
+}
+.menu .menu-item .menu-link {
+  text-decoration: none;
+  color: #fff;
+  float: left;
+  padding: 10px 15px;
+  transition: background .3s ease-in-out;
+
+
+}
+
+.menu .menu-item .menu-link:hover{
+  
+  background: #fff;
+  color: #000;
+}
+/*search
+*/
+.search {
+  float: right;
+  margin-right: 20px;
+
+}
+.search-field{
+  padding: 10px 6px;
+  border-radius: 5px;
+  border: 0px;
+  width: 160px;
+}
+.search-button {
+  background: transparent;
+  color: #fff;
+  border: 0px
+}
+/* posts 
+*/
+
+.content {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: table
+
+}
+.posts {
+  width: 60%;
+  
+  float: left;
+}
+.posts .post{
+
+  text-align: left;
+  border-bottom: 1px solid #999;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  font-family: 'Chilanka', cursive; 
+
+}
+
+.posts .post .post-thumb{
+  width: 100%
+
+}
+.posts .post .post-thumb,
+.posts .post .post-title,
+.posts .post .post-description {
+  margin-bottom: 15px;
+}
+.posts .post .post-title {
+  font-family: 'Open Sans';
+
+}
+
+.posts .post .post-description{
+  font-size: 16px;
+  line-height: 30px;
+  color: #999;
+  
+}
+.posts .post .post-link{
+
+}
+
+/*
+Contact from 
+*/
+.form-group {
+  display: block;
+  margin-bottom: 15px;
+}
+.form-group label{
+  display: block;
+  margin-bottom: 5px;
+
+}
+.form-control{
+  width: 100%;
+  padding: 10px   5px;
+  border: 1px solid #999;
+  border-radius: 5px;
+  font-size: 18px
+
+}
+.sidebar {
+  width: 37%;
+  
+  float: right;
+}
+
+.btn {
+  padding: 15px 20px;
+  border-radius: 5px;
+  border: 1px solid #999;
+  background: #ccc;
+  color: #000;
+  font-size: 17px;
+  cursor: grab;
+
+}
+
+
+.btn-success{
+  border: 1px solid rgb(6, 105,44);
+  background: rgb(135, 250, 180);
+}
+
+
+
